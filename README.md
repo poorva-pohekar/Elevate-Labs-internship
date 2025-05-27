@@ -1,6 +1,6 @@
 # Titanic Dataset Analysis
 
-TASK 01
+# TASK 01
 
 1. # Importing libraries:
     - numpy, pandas, matplotlib, seaborn, sklearn.preprocessing
@@ -31,7 +31,7 @@ TASK 01
     - Removed outliers using the IQR method for the selected numeric features.
     - Plotted boxplots again to confirm outlier removal.
 
-TASK-02
+# TASK-02
 
 1.  # Summary Statistics
     - Used describe(include="all") to calculate mean, median, standard deviation, min, max, etc.
