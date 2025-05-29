@@ -45,3 +45,17 @@
 ## Output
     - Cleaned, transformed dataset ready for machine learning.
     - Visual insights into feature distributions, correlations, and survival trends.
+
+# TASK-03
+
+In this task we have used "Housing.csv" Dataset for House Price Prediction.
+
+1.  # Importated libraries 
+2.  # converted Categorical Data to Numerical
+2.  # Split the Data into Train and Test Sets
+3.  # Used Simple Linear Regression Model to train and test 
+4.  # Evaluated the models accuracy by calculating:
+    - Mean Squared Error
+    - Mean Absolute Error
+    - R-Squared Value
+5.  # Plotted the Predicted VS Actual Price of the houses to interpret visually How well the model Predicted and calculated the Model's Coefficient.
