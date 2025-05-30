@@ -51,7 +51,7 @@
 In this task we have used "Housing.csv" Dataset for House Price Prediction.
 
 1.  # Importated libraries 
-2.  # converted Categorical Data to Numerical
+2.  # Converted Categorical Data to Numerical
 2.  # Split the Data into Train and Test Sets
 3.  # Used Simple Linear Regression Model to train and test 
 4.  # Evaluated the models accuracy by calculating:
@@ -59,3 +59,24 @@ In this task we have used "Housing.csv" Dataset for House Price Prediction.
     - Mean Absolute Error
     - R-Squared Value
 5.  # Plotted the Predicted VS Actual Price of the houses to interpret visually How well the model Predicted and calculated the Model's Coefficient.
+
+
+# TASK-04
+Logistic Regression on Breast Cancer Dataset
+This project demonstrates a complete binary classification pipeline using Logistic Regression on the Breast Cancer Wisconsin dataset.
+
+1.  # Data Preprocessing:
+    - Dropped irrelevant columns (id, Unnamed: 32)
+    - Encoded target: M → 1 (Malignant), B → 0 (Benign)
+
+2.  # Model Pipeline:
+    - Train/test split (80/20)
+    - Feature standardization using StandardScaler
+    - Model training using LogisticRegression
+3.  # Model Evaluation:
+    - Confusion Matrix
+    - Precision and Recall
+    - ROC-AUC Score and ROC Curve
+    - Threshold tuning at 0.3 and 0.5
+4.  # Concept Explanation:
+    - Sigmoid function and how logistic regression outputs probabilities
