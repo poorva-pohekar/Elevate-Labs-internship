@@ -80,3 +80,28 @@ This project demonstrates a complete binary classification pipeline using Logist
     - Threshold tuning at 0.3 and 0.5
 4.  # Concept Explanation:
     - Sigmoid function and how logistic regression outputs probabilities
+
+# TASK-05
+
+Heart Disease Classification using Decision Trees and Random Forest.
+This project applies machine learning models to predict the presence of heart disease using the **UCI Heart Disease Dataset**.
+
+
+1. **Train a Decision Tree Classifier and Visualize the Tree**  
+   - Used `sklearn.tree.DecisionTreeClassifier`  
+   - Visualized using `plot_tree()`
+
+2. **Analyze Overfitting and Control Tree Depth**  
+   - Compared default vs pruned (`max_depth=4`) trees  
+   - Evaluated accuracy and overfitting impact
+
+3. **Train a Random Forest and Compare Accuracy**  
+   - Used `RandomForestClassifier`  
+   - Compared with pruned Decision Tree accuracy
+
+4. **Interpret Feature Importances**  
+   - Plotted top contributing features from the Random Forest model
+
+5. **Evaluate Using Cross-Validation**  
+   - Performed 5-fold cross-validation  
+   - Achieved ~99.7% average accuracy
