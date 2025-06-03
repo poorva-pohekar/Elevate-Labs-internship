@@ -62,6 +62,7 @@ In this task we have used "Housing.csv" Dataset for House Price Prediction.
 
 
 # TASK-04
+
 Logistic Regression on Breast Cancer Dataset
 This project demonstrates a complete binary classification pipeline using Logistic Regression on the Breast Cancer Wisconsin dataset.
 
@@ -86,7 +87,6 @@ This project demonstrates a complete binary classification pipeline using Logist
 Heart Disease Classification using Decision Trees and Random Forest.
 This project applies machine learning models to predict the presence of heart disease using the **UCI Heart Disease Dataset**.
 
-
 1. **Train a Decision Tree Classifier and Visualize the Tree**  
    - Used `sklearn.tree.DecisionTreeClassifier`  
    - Visualized using `plot_tree()`
@@ -105,3 +105,24 @@ This project applies machine learning models to predict the presence of heart di
 5. **Evaluate Using Cross-Validation**  
    - Performed 5-fold cross-validation  
    - Achieved ~99.7% average accuracy
+
+# TASK-06
+# KNN Classification on Iris Dataset
+
+This project applies K-Nearest Neighbors (KNN) to the Iris dataset using Scikit-learn. The goal is to explore model performance with varying parameters and visualize results.
+
+1. **Data Loading & Normalization**  
+   - Loaded `Iris.csv` and normalized features using `StandardScaler` for better model performance.
+
+2. **Model Setup**  
+   - Used `KNeighborsClassifier` from `sklearn` for classification.
+
+3. **K Value Experimentation**  
+   - Tested different values of K (e.g., 3, 5, 7) to observe changes in model accuracy.
+
+4. **Model Evaluation**  
+   - Evaluated performance using `accuracy_score` and visualized predictions using a confusion matrix.
+
+5. **Decision Boundary Visualization**  
+   - Applied PCA to reduce data to 2D and plotted decision boundaries for different K values.
+
