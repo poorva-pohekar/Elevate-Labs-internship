@@ -107,7 +107,6 @@ This project applies machine learning models to predict the presence of heart di
    - Achieved ~99.7% average accuracy
 
 # TASK-06
-# KNN Classification on Iris Dataset
 
 This project applies K-Nearest Neighbors (KNN) to the Iris dataset using Scikit-learn. The goal is to explore model performance with varying parameters and visualize results.
 
