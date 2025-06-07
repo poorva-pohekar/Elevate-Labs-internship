@@ -125,3 +125,24 @@ This project applies K-Nearest Neighbors (KNN) to the Iris dataset using Scikit-
 5. **Decision Boundary Visualization**  
    - Applied PCA to reduce data to 2D and plotted decision boundaries for different K values.
 
+# TASK-07
+
+This project performs binary classification on the Breast Cancer dataset using Support Vector Machines (SVMs) 
+
+1.  **Data Preprocessing**
+    - Dropped id column
+    - Converted diagnosis to binary (0 or 1)
+
+2.  **Visualization**
+    - 2D Scatter plot using radius_mean and texture_mean
+
+3.  **SVM Training**
+    - Trained SVM models with linear and RBF kernels
+    - Evaluted accuracy on test set
+
+4.  **Decision Boundary Visualization**
+    - Plotted decision boundaries of trained models
+
+5.  **Hyperparameter Tuning**
+    - Used GridSearchCV to tune C and gamma for RBF kernel
+    - Evaluated best model on test set with a classification report
